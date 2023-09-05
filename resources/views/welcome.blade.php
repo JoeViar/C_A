@@ -163,6 +163,10 @@
   font-size: 16px;
   margin: 4px 2px;
 }
+#territoryCovered{
+  width:100%;
+  height: 100%;
+}
   </style>
 </head>
 <body>
@@ -327,7 +331,7 @@
   </div>
 
 </div>
-<div class="container div-monitor">
+<div class="container p-0 div-monitor">
   
   <div class="row text-center">
     <h4>Our Services</h4>
@@ -335,7 +339,7 @@
   </div>
 
   <div class="row p-0 m-0">
-    <div class="col-4 m-0">
+    <div class="col-4 p-0 m-0">
        <div class="card-img" style="background: #ade70d; color:#8e9440; ">
                             
                             <div class="justify-content-center">
@@ -481,8 +485,8 @@
       </div>
 
     </div>
-    <div class="col-6 m-0 ">
-      <!-- <img  id="cardImg" src="{{asset('assets/IMG/Construction/MapConstruction.png')}}"  class="img-fluid m-0" alt=""> -->
+    <div class="col-6 m-0 p-0" sty>
+      <img  id="territoryCovered" src="{{asset('assets/IMG/Construction/MapConstruction.png')}}"  class="img-fluid m-0" alt="">
 
 
     </div>
