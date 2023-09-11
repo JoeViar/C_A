@@ -56,15 +56,11 @@
     justify-content: center;
 
  }
- @media (max-width: 767px) {
-  #logoDiv{
-  width: 100px;
-  height: auto;
-  display: flex;
-    justify-content: center;
-
+ #logofooter{
+    width: 50%;
+    height: auto;
+    background: #e5e1d8;
  }
-}
  #items-nav{
     font-size: 180%;
  }
@@ -155,17 +151,13 @@
   display: block; /* Show on larger screens */
         }
     }
-  /* .btn{
+  .btn{
 
     color:#fff;
     background:#ade70d;
 
     width:50%;
     height: auto;
-  } */
-  #btnChangeLang{
-
-
   }
   #cardImg{
    width:1000px;
@@ -201,7 +193,7 @@
 }
 #territoryCoveredText{
   color: #ade70d;
-  background: #000;
+  background: #25282b;
   border: 1px  solid #25282b;
 }
 #colOurStory{
@@ -215,18 +207,11 @@
 }
 }
 #storyImg{
-
-
-  width: 100%;
-  height:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
-@media (max-width:501) {
-
-  #storyImg{
-  width: 1px;
-  height:1px;
-  }
-  }
 #partnerImg{
   width:30%;
   height: auto;
@@ -811,67 +796,25 @@ ul{
   margin-bottom:1rem;
   margin-top: auto;
 }
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
-h1{
-  font-family: 'Outfit', sans-serif;
-}
-h2{
-  font-family: 'Outfit', sans-serif;
-}
-p{
-  font-family: 'Outfit', sans-serif;
-}
-span{
-  font-family: 'Outfit', sans-serif;
-}
-h3{
-  font-family: 'Outfit', sans-serif;
-}
-h4 {
- font-family: 'Outfit', sans-serif;
-}
-h5{
-  font-family: 'Outfit', sans-serif;
-}
   </style>
    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet" />
 </head>
 <body>
+<div>
 
-
-
-<div style="background:#ada5a7">
-   <div class="div-monitor">
             <div class="dropdown">
-            <button style="width:300px; border-radius:3rem;"class=" m-3 btn btn-light btn-lg dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><span class="flag-icon flag-icon-us me-1"></span> <span>English</span></button>
+            <button class="btn btn- btn-sm dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><span class="flag-icon flag-icon-us me-1"></span> <span>English</span></button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li>
                     <a class="dropdown-item active" href=""><span class="flag-icon flag-icon-us me-1"></span> <span>English</span></a>
                 </li>
                 <li>
-                    <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-es me-1"></span> <span>Spanish</span></a>
+                    <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-es me-1"></span> <span>Spanich</span></a>
                 </li>
             </ul>
         </div>
-        </div>
-
-      <div class="div-mobile">
-            <div class="dropdown">
-              <button style="width:300px; border-radius:3rem;"class=" m-3 btn btn-light btn-lg dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><span class="flag-icon flag-icon-us me-1"></span> <span>En</span></button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li>
-                    <a class="dropdown-item active" href=""><span class="flag-icon flag-icon-us me-1"></span> <span>En</span></a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-es me-1"></span> <span>Sp</span></a>
-                </li>
-                </ul>
-            </div>
-      </div>
-
-
 
 
 </div>
@@ -893,16 +836,16 @@ h5{
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item m-2">
+          <li class="nav-item m-1">
             <a id="items-nav" class="nav-link active" aria-current="page" href="#whyUsContainer">Why US?</a>
           </li>
-          <li class="nav-item m-2">
+          <li class="nav-item m-21">
             <a id="items-nav" class="nav-link active" aria-current="page" href="#ourServicesContainer">Our Services</a>
           </li>
-          <li class="nav-item m-2">
+          <li class="nav-item m-1">
             <a id="items-nav" class="nav-link active" aria-current="page" href="index.html">Cleaning Services</a>
           </li>
-          <li class="nav-item m-2">
+          <li class="nav-item m-1">
             <a  id="items-nav" class="nav-link active" aria-current="page" href="#ourHistory">Our Story</a>
           </li>
           <li class="nav-item m-2">
@@ -927,7 +870,7 @@ h5{
 
 
 
-  <div class="container-fluid p-0 " sytle="text-align: justify">
+  <div class="container-fluid p-0">
     <video class="p-0" width="100%" height="auto" autoplay  loop muted>>
       <source src="{{URL::asset('assets/IMG/Construction/HomeBannerVideo.mp4')}}" type="video/mp4">
     Your browser does not support the video tag.
@@ -952,7 +895,7 @@ h5{
 
         </div>
 
-        <div class="div-monitor p-4 mb-5">
+        <div class="div-monitor">
         <!-- Content for larger screens (monitors) -->
 
           <h4>Why C&A Construction Services? We make a difference</h4>
@@ -987,8 +930,8 @@ h5{
         <div class="row">
             <h5>Premium Quality Services & Materials   </h5>
         </div>
-        <div class="row " >
-            <p style="text-align:justify;" >Our dedication to excellence begins the moment you reach out to us. Expect top-notch services, exceptional customer support, and guaranteed satisfaction.</p>
+        <div class="row">
+            <span>Our dedication to excellence begins the moment you reach out to us. Expect top-notch services, exceptional customer support, and guaranteed satisfaction.</span>
         </div>
 
     </div>
@@ -1009,8 +952,8 @@ h5{
         <div class="row">
             <h5>Honest & Transparent Pricing </h5>
         </div>
-        <div class="row " >
-            <p  style="text-align: justify"> Our free estimates are straightforward and exact, with no concealed costs or extra charges. Transparency and honesty are fundamental to our values, setting us apart from other painting companies.</p>
+        <div class="row">
+            <span> Our free estimates are straightforward and exact, with no concealed costs or extra charges. Transparency and honesty are fundamental to our values, setting us apart from other painting companies.</span>
         </div>
 
     </div>
@@ -1034,7 +977,7 @@ h5{
             <h5>One-Time Policy</h5>
         </div>
         <div class="row">
-            <p style="text-align:justify;" > Our efficient process and expert project management ensure our skilled team swiftly completes the work within the projected timeline.</p>
+            <span> Our efficient process and expert project management ensure our skilled team swiftly completes the work within the projected timeline.</span>
         </div>
     </div>
   </div>
@@ -1066,10 +1009,10 @@ h5{
               <span>With over a decade of experience, our painters have expertly revitalized thousands of homes with top-quality painting services.</span>
             </div>
           </div>
-
+          
           <br>
             <div id="buttonAlign"class="row justify-content-center p-4">
-
+              
               <button  id="OurServicesBtn" type="button">Request a quote</button>
 
             </div>
@@ -1077,7 +1020,7 @@ h5{
         </div>
 
     </div>
-    <div class="col-md-4  m-0 p-0">
+    <div class="col-md-4 h-100 m-0 p-0">
      <div class="card-img h-100" style="background: #f5f5f5; color:#8e9440; height: 200px;">
          <div class="justify-content-center">
            <img  id="cardImg" src="{{asset('assets/IMG/Construction/drywell.png')}}"  class="img-fluid" alt="">
@@ -1092,7 +1035,7 @@ h5{
            <br>
            <br>
            <div id="buttonAlign" class="row justify-content-center m-0 p-4">
-
+              
               <button  id="OurServicesBtn" type="button">Request a quote</button>
 
             </div>
@@ -1100,7 +1043,7 @@ h5{
          </div>
     </div>
 
-    <div class="col-md-4  p-0 m-0">
+    <div class="col-md-4 h-100 p-0 m-0">
       <div class="card-img h-100" style="background: #e5e1d8; color:#8e9440; ">
         <div class="justify-content-center">
           <img  id="cardImg" src="{{asset('assets/IMG/Construction/Framing.png')}}"  class="img-fluid" alt="">
@@ -1112,7 +1055,6 @@ h5{
                 <span>We ensure impeccable installation of structural frames to support doors, windows, and other elements, along with the finest custom selection of frames.</span>
             </div>
           </div>
-          
             <div class="row justify-content-center p-4">
               <button  id="OurServicesBtn" type="button">Request a quote</button>
 
@@ -1138,7 +1080,7 @@ h5{
             </div>
           </div>
             <br>
-
+            
             <div class="row justify-content-center p-5">
               <button  id="OurServicesBtn" type="button">Request a quote</button>
 
@@ -1351,17 +1293,17 @@ h5{
 </div>
 </div>
 
-<div class="container  ">
+<div class="container ">
   <div class="row">
     <div id="territoryCoveredText" class="col-md-6   ">
-      <div class="row p-5 ">
-          <h4 class="ml-4">Territory Covered</h4>
+      <div class="row p-3">
+          <h4>Territory Covered</h4>
       </div>
-      <div class="row px-5">
+      <div class="row p-5">
         <p>
           Our expirience and quality have led us to be reccomended to work in beutiful cities such as:
         </p>
-        <ul class="px-5">
+        <ul>
           <li>Anaheim</li>
           <li>Encinitas</li>
           <li>Malibu</li>
@@ -1383,7 +1325,7 @@ h5{
   <div class="row">
 
     <div class="col-md-6 m-0 p-2 justify-content-center" >
-      <img  id="storyImg"  src="{{asset('assets/IMG/Construction/C&AConstruction1.png')}}"   alt="">
+      <img  id="storyImg" src="{{asset('assets/IMG/Construction/C&AConstruction1.png')}}"   alt="">
 
 
     </div>
@@ -1393,13 +1335,9 @@ h5{
       <div class="row p-3 my-5">
         <h4>Our Story</h4>
       </div>
-      <div class="row px-4">
+      <div class="row p-3">
         <p>
-              <p style="text-align:justify;" >C&A Construction, founded by Carlos Enrique Hernandez, is a leading construction company that delivers exceptional services to homeowners. With a focus on quality and precision, C&A Construction has established itself as a trusted brand in the industry.
-
-From expert house painting, both interior and exterior, to meticulous maintenance of moldings, hardwood floors, doors, and interior installations, C&A Construction pays attention to every detail to enhance the overall appeal of homes.
-
-We have been bringing excellence since 2013.</p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat obcaecati officiis tenetur quae molestiae aliquam sequi perferendis praesentium odio, placeat architecto. Dolor omnis at aspernatur facere repudiandae maxime ullam?
         </p>
 
       </div>
@@ -1411,28 +1349,22 @@ We have been bringing excellence since 2013.</p>
     <div  class="col-md-6 p-2 m-0  ">
       <div class="div-monitor">
         <div class="row p-3">
-          <h4>Meet Carlos</h4>
+          <h4>Our Story</h4>
         </div>
-        <div class="row px-4">
-          <p style="text-align:justify;" >Carlos Enrique Hernández Cruz, born in Guatemala, is a seasoned construction professional with a remarkable journey. Carlos entered the construction industry during his adolescence, working diligently for various private companies.
-
-In 2003, he formally embarked on his construction career, initially as a skilled painter and head of maintenance. In 2013, Carlos founded C&A Construction, relied on word-of-mouth recommendations to secure projects. Despite initial challenges, the commitment to quality and excellence resulted in C&A Construction quickly establishing itself as one of the industry's finest.</p>
-        </div>
-
       </div>
       <div class="div-mobile">
         <div class="row p-2 ">
           <h2 class="text-center">Meet Carlos</h4>
         </div>
+      </div>
 
+      <div class="row p-2 " >
+        <p>
 
-      <div class="row p-4 " >
-      <p style="text-align:justify;">Carlos Enrique Hernández Cruz, born in Guatemala, is a seasoned construction professional with a remarkable journey. Carlos entered the construction industry during his adolescence, working diligently for various private companies.
-
-In 2003, he formally embarked on his construction career, initially as a skilled painter and head of maintenance. In 2013, Carlos founded C&A Construction, relied on word-of-mouth recommendations to secure projects. Despite initial challenges, the commitment to quality and excellence resulted in C&A Construction quickly establishing itself as one of the industry's finest.</p>
+        </p>
 
       </div>
-</div>
+
     </div>
     <div class="col-md-6 m-0 p-2 justify-content-center" id="colOurStory" >
       <img  id="storyImg" src="{{asset('assets/IMG/Construction/carlos.png')}}"   alt="">
@@ -1441,22 +1373,20 @@ In 2003, he formally embarked on his construction career, initially as a skilled
     </div>
   </div>
 </div>
-<div class="bg-secondary div-monitor " id="ourProjects">
-
-<div class="row p-2 justify-content-center">
+<div class="bg-secondary " id="ourProjects">
+  <div class="row p-2 justify-content-center">
     <div class="col-3 m-1">
-      
-      <img   class="img-fluid"  src="{{asset('assets/IMG/Construction/1.png')}}"   alt="">
+      <div clas="d-flex justify-content-end" >
+      <img  class="img-fluid"  src="{{asset('assets/IMG/Construction/1.png')}}"   alt="">
+      </div>
     </div>
-    
     <div class="col-3 m-1">
       <img  class="img-fluid"  src="{{asset('assets/IMG/Construction/2.png')}}"   alt="">
     </div>
     <div class="col-3 m-1">
       <img  class="img-fluid"  src="{{asset('assets/IMG/Construction/3.png')}}"   alt="">
     </div>
-
-</div>
+  </div>
 
 <div class="row p-2 justify-content-center">
     <div class="col-3 m-1">
@@ -1470,8 +1400,7 @@ In 2003, he formally embarked on his construction career, initially as a skilled
     <div class="col-3 m-1">
       <img  class="img-fluid"  src="{{asset('assets/IMG/Construction/6.png')}}"   alt="">
     </div>
-
-</div>
+  </div>
 
 <div class="row p-2 justify-content-center">
     <div class="col-3 m-1">
@@ -1510,7 +1439,7 @@ In 2003, he formally embarked on his construction career, initially as a skilled
     <div  class="col-md-4 p-2 m-0  ">
 
         <div class="row p-0 ">
-          <h1 style="margin-top:25%; color:#06153a" class="text-center">Our Partners</h2>
+          <h2 style="margin-top:25%;" class="text-center">Our Partners</h2>
         </div>
 
 
@@ -1519,8 +1448,8 @@ In 2003, he formally embarked on his construction career, initially as a skilled
     </div>
     <div class="col-md-8 m-0 p-2 justify-content-center" id="colOurStory" >
       <div class="row justify-content-around">
-        <img   src="{{asset('assets/IMG/Construction/partners.png')}}"   alt="">
-        <!-- <img  id="partnerImg2" src="{{asset('assets/IMG/Construction/Partner2.png')}}"   alt=""> -->
+        <img  id="partnerImg" src="{{asset('assets/IMG/Construction/Partener1.png')}}"   alt="">
+        <img  id="partnerImg2" src="{{asset('assets/IMG/Construction/Partner2.png')}}"   alt="">
 
       </div>
 
@@ -1546,53 +1475,53 @@ In 2003, he formally embarked on his construction career, initially as a skilled
               <form action="">
                     <div class="row justify-content-center ">
                       <div class="col ">
-                        <input class="bg-white text-black form-control rounded-3" placeholder="Name"type="text">
+                        <input name="name" class="bg-white text-black form-control rounded-3" placeholder="Name"type="text">
 
                       </div>
                       <div class="col">
-                        <input class="bg-white text-black form-control rounded-3" placeholder="Last Name"type="text">
+                        <input name="lastName" class="bg-white text-black form-control rounded-3" placeholder="Last Name"type="text">
 
                       </div>
 
                     </div>
                     <div class="row">
                       <div class="col">
-                        <input class="bg-white text-black form-control rounded-3" placeholder="Email"type="email">
+                        <input name="email" class="bg-white text-black form-control rounded-3" placeholder="Email"type="email">
 
                       </div>
                       <div class="col">
-                        <input class="bg-white text-black form-control rounded-3" placeholder="Phone"type="text">
+                        <input name="phone" class="bg-white text-black form-control rounded-3" placeholder="Phone"type="number">
 
                       </div>
 
                     </div>
                     <div class="row p-1 m-1">
-                      <input class="bg-white text-black form-control rounded-3" placeholder="Subject"type="text">
+                      <input name="subject" class="bg-white text-black form-control rounded-3" placeholder="Subject"type="text">
 
 
                     </div>
                     <div class="row p-1 m-1">
-                      <textarea name="Text1" cols="40" rows="5" placeholder="Message"></textarea>
+                      <textarea name="messages" cols="40" rows="5" placeholder="Message"></textarea>
                     </div>
                     <div class="row p-1 m-1">
                       <input type="file" name="" id="">
 
                     </div>
                     <div class="row p-1 m-1">
-                      <input class="bg-white text-black form-control rounded-3" placeholder="Preferred Contact Method"type="text">
+                    <input name="contact" class="bg-white text-black form-control rounded-3" placeholder="Prefered contact method"type="text">
 
 
                     </div>
                     <div class="row p-1 m-1">
-                      <input class="bg-white text-black form-control rounded-3" placeholder="How did you hear about us"type="text">
+                      <input name="how" class="bg-white text-black form-control rounded-3" placeholder="How did you hear about us " type="text">
 
                     </div>
                     <div class="row justify-content-end ">
-                      <button type="submit" class="btn ml-5">Submit</button>
+                      <button type="submit" class="btn btn-primary ml-5">Submit</button>
 
                     </div>
 
-                  </form
+                  </form>
               </div>
           </div>
       </div>
@@ -1607,104 +1536,11 @@ In 2003, he formally embarked on his construction career, initially as a skilled
 
 
 
+
 <footer id="footer" class="footer mt-0 p-0 text-center">
   <div class="row">
   <div class="col-md-8 py-5 order-lg-2 ">
-      <div class="row">
-        <div class="div-monitor">
-          <div class="row">
-            <div class="col-3">
-            <span>Navigate</span>
-              <ul>
-              <li >
-              <a  style="color: #000; text-decoration:none;" href="#whyUsContainer">Why US?</a>
-            </li>
-            <li >
-              <a   style="color: #000; text-decoration:none;" aria-current="page" href="#ourServicesContainer">Our Services</a>
-            </li>
-            <li >
-              <a  style="color: #000; text-decoration:none;" aria-current="page" href="index.html">Cleaning Services</a>
-            </li>
-            <li >
-              <a   style="color: #000; text-decoration:none;" aria-current="page" href="#ourHistory">Our Story</a>
-            </li>
-            <li >
-              <a style="color: #000; text-decoration:none;" href="#ourProjects">Projects</a>
-            </li>
-            <li >
-              <a  style="color: #000; text-decoration:none;" aria-current="page" href="#contactCotnainer">Contact</a>
-            </li>
-
-              </ul>
-            </div>
-          <div class="col-3">
-            <span>Phone</span>
-
-          </div>
-          <div class="col-3">
-            <span>Address</span>
-              <p>Panorama City, CA 91402</p>
-          </div>
-          <div class="col-3">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-            </svg>
-          </div>
-        </div>
-
-        </div>
-
-        <div class="div-mobile">
-          <divn class="row">
-          <div class="col-6">
-            <span>Navigate</span>
-              <ul>
-              <li >
-              <a  style="color: #000; text-decoration:none;" href="#whyUsContainer">Why US?</a>
-            </li>
-            <li >
-              <a   style="color: #000; text-decoration:none;" aria-current="page" href="#ourServicesContainer">Our Services</a>
-            </li>
-            <li >
-              <a  style="color: #000; text-decoration:none;" aria-current="page" href="index.html">Cleaning Services</a>
-            </li>
-            <li >
-              <a   style="color: #000; text-decoration:none;" aria-current="page" href="#ourHistory">Our Story</a>
-            </li>
-            <li >
-              <a style="color: #000; text-decoration:none;" href="#ourProjects">Projects</a>
-            </li>
-            <li >
-              <a  style="color: #000; text-decoration:none;" aria-current="page" href="#contactCotnainer">Contact</a>
-            </li>
-
-              </ul>
-            </div>
-          <div class="col-6">
-            <span>Phone</span>
-
-          </div>
-
-
-          <div class="row">
-          <div class="col-6">
-            <span>Address</span>
-              <p>Panorama City, CA 91402</p>
-          </div>
-          <div class="col-6">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-            </svg>
-          </div>
-
-          </div>
-
-
-
-
-        </div>
-
-      </div>
+      
 
 
     </div>
@@ -1712,17 +1548,18 @@ In 2003, he formally embarked on his construction career, initially as a skilled
       <img id="logofooter" class="bg-gray"src="{{asset('assets/IMG/Construction/C&AConstruction.png')}}" alt="">
 
     </div>
-
+   
 
 
   </div>
-
+  
 
 
 </footer>
 <div class="row bg-light text-dark text-center">
       <span>Copyright © 2023 C&A Construction All Rights Reserved</span>
-</div>
+      
+    </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 <script>
@@ -1742,5 +1579,6 @@ items.forEach((el) => {
     }
 })</script>
 
+</script>
 </body>
 </html>

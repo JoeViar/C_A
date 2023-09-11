@@ -38,7 +38,7 @@
   }
 }
  #footer{
-  background: #ade70d;
+  background: #fb8500;
 
 
 
@@ -56,20 +56,16 @@
     justify-content: center;
 
  }
- @media (max-width: 767px) {
-  #logoDiv{
-  width: 100px;
-  height: auto;
-  display: flex;
-    justify-content: center;
-
+ #logofooter{
+    width: 50%;
+    height: auto;
+    background: #000000;
  }
-}
  #items-nav{
     font-size: 180%;
  }
  #whyUs_container{
-    background:#ade70d;
+   background-image: url("assets/IMG/Cleaning/WhyUSBG.png");
     padding-right: 0;
     padding-left: 0;
  }
@@ -83,16 +79,13 @@
  #logo_whyUsR{
   width: 15%;
   height: auto;
-  display: block;
-
-  margin: auto;
-  display: block
+  
 
  }
  #logo_whyUs{
-  width: 25%;
+  width: 75%;
   height: auto;
-  display: block;
+  
 
  }
 
@@ -155,24 +148,20 @@
   display: block; /* Show on larger screens */
         }
     }
-  /* .btn{
+  .btn{
 
     color:#fff;
-    background:#ade70d;
+    background:#fb8500;
 
     width:50%;
     height: auto;
-  } */
-  #btnChangeLang{
-
-
   }
   #cardImg{
    width:1000px;
    height: 150px;
   }
 #OurServicesBtn{
-  background-color: #8e9440;
+  background-color: #0081e9;
   border: none;
   color: white;
   padding: 20px;
@@ -186,7 +175,7 @@
 #OurServicesBtnCS{
   background-color: #ffffff;
   border: none;
-  color: #8e9440;
+  color: #0081e9;
   padding: 20px;
   text-align: center;
   text-decoration: none;
@@ -200,8 +189,8 @@
   height: 100%;
 }
 #territoryCoveredText{
-  color: #ade70d;
-  background: #000;
+  color: #fb8500;
+  background: #25282b;
   border: 1px  solid #25282b;
 }
 #colOurStory{
@@ -215,18 +204,11 @@
 }
 }
 #storyImg{
-
-
-  width: 100%;
-  height:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
-@media (max-width:501) {
-
-  #storyImg{
-  width: 1px;
-  height:1px;
-  }
-  }
 #partnerImg{
   width:30%;
   height: auto;
@@ -799,7 +781,7 @@ select.form-control[multiple] {
     height: auto
 }
 #contactCotnainer{
-  background-image: url('assets/IMG/Construction/IMGCompletaForm.png');
+  background-image: url('assets/IMG/Cleaning/ContactUsbg.png');
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -811,67 +793,25 @@ ul{
   margin-bottom:1rem;
   margin-top: auto;
 }
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
-h1{
-  font-family: 'Outfit', sans-serif;
-}
-h2{
-  font-family: 'Outfit', sans-serif;
-}
-p{
-  font-family: 'Outfit', sans-serif;
-}
-span{
-  font-family: 'Outfit', sans-serif;
-}
-h3{
-  font-family: 'Outfit', sans-serif;
-}
-h4 {
- font-family: 'Outfit', sans-serif;
-}
-h5{
-  font-family: 'Outfit', sans-serif;
-}
   </style>
    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet" />
 </head>
 <body>
+<div>
 
-
-
-<div style="background:#ada5a7">
-   <div class="div-monitor">
             <div class="dropdown">
-            <button style="width:300px; border-radius:3rem;"class=" m-3 btn btn-light btn-lg dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><span class="flag-icon flag-icon-us me-1"></span> <span>English</span></button>
+            <button class="btn btn-primary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><span class="flag-icon flag-icon-us me-1"></span> <span>English</span></button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li>
                     <a class="dropdown-item active" href=""><span class="flag-icon flag-icon-us me-1"></span> <span>English</span></a>
                 </li>
                 <li>
-                    <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-es me-1"></span> <span>Spanish</span></a>
+                    <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-es me-1"></span> <span>Spanich</span></a>
                 </li>
             </ul>
         </div>
-        </div>
-
-      <div class="div-mobile">
-            <div class="dropdown">
-              <button style="width:300px; border-radius:3rem;"class=" m-3 btn btn-light btn-lg dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><span class="flag-icon flag-icon-us me-1"></span> <span>En</span></button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li>
-                    <a class="dropdown-item active" href=""><span class="flag-icon flag-icon-us me-1"></span> <span>En</span></a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-es me-1"></span> <span>Sp</span></a>
-                </li>
-                </ul>
-            </div>
-      </div>
-
-
 
 
 </div>
@@ -879,13 +819,14 @@ h5{
 
 
 
-  <nav class="navbar navbar-expand-lg  p-0 navbar-dark bg-dark ">
-    <div class="container-fluid bg-dark p-0">
-      <a class="navbar-brand  bg-white "  href="#">
-        <div id="logoDiv" class="bg-white">
-          <img id="logo" class="bg-white m-0"src="{{asset('assets/IMG/Construction/C&AConstruction.png')}}" alt="">
 
-        </div>
+
+
+  
+<nav class="navbar navbar-expand-lg  p-0 navbar-dark opacity-5  ">
+    <div class="container-fluid bg-dark p-0">
+      <a class="navbar-brand "  href="#">
+        
 
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -899,15 +840,7 @@ h5{
           <li class="nav-item m-2">
             <a id="items-nav" class="nav-link active" aria-current="page" href="#ourServicesContainer">Our Services</a>
           </li>
-          <li class="nav-item m-2">
-            <a id="items-nav" class="nav-link active" aria-current="page" href="index.html">Cleaning Services</a>
-          </li>
-          <li class="nav-item m-2">
-            <a  id="items-nav" class="nav-link active" aria-current="page" href="#ourHistory">Our Story</a>
-          </li>
-          <li class="nav-item m-2">
-            <a id="items-nav" class="nav-link active" aria-current="page" href="#ourProjects">Projects</a>
-          </li>
+          
           <li class="nav-item m-2">
             <a id="items-nav" class="nav-link active" aria-current="page" href="#contactCotnainer">Contact</a>
           </li>
@@ -922,20 +855,18 @@ h5{
     </div>
   </nav>
 
-<div class="container-fluid  " id="whyUs_container">
-    <h2  style="color: #ade70d;">About Me</h2>
 
-
-
-  <div class="container-fluid p-0 " sytle="text-align: justify">
+  <div class="container-fluid p-0">
     <video class="p-0" width="100%" height="auto" autoplay  loop muted>>
-      <source src="{{URL::asset('assets/IMG/Construction/HomeBannerVideo.mp4')}}" type="video/mp4">
+      <source src="{{URL::asset('assets/IMG/Cleaning/CleaningBannerVideo.mp4')}}" type="video/mp4">
     Your browser does not support the video tag.
     </video>
   </div>
 
   <div>
-  <div class="container p-5" id="whyUsContainer">
+  </div>
+  <div class="container-fluid  " id="whyUs_container">
+  <div class="container div-monitor p-3" id="whyUsContainer">
     <div class="row text-center">
         <!-- <div class="col-md-6 "> -->
             <!-- <h5> Why C&A Construction Services?</h5> -->
@@ -945,28 +876,102 @@ h5{
         <!-- </div> -->
 
     <div class="div-mobile ">
-    <h4>Why C&A Construction Services? </h4> <h4>We make a difference</h4>
+    
 
 
 
 
         </div>
 
-        <div class="div-monitor p-4 mb-5">
+        <div class="div-monitor">
         <!-- Content for larger screens (monitors) -->
 
-          <h4>Why C&A Construction Services? We make a difference</h4>
+          
         </div>
 
     </div>
   <div class="row">
+    <div class="col-6">
+
+
+    </div>
+    <div class="col-6">
+      <div class="row text-center">
+       <h4 style="color:#fb8500">Why Choose C&A Cleaning?</h4>
+        <div class="col mx-3 p-2">
+          <div class="row align-items-cente">
+          <div class="col p-0">
+          <img  id="logo_whyUs" src="{{asset('assets/IMG/Cleaning/WeCover.png')}}" alt="">
+
+
+          </div>
+          <div class="col">
+           <h6 style="color:#fb8500">We Cover All Cleaning Needs</h6>
+          </div>
+          
+          </div>
+          <div class="row">
+         <p class="p-1" style="text-align: justify;">From homes to offices, after construction
+         or events, and even move-ins/move-outs,
+         we handle it all with expertise.
+           </p>
+          </div>
+          
+        </div>
+        <div class="col mx-3 p-2">
+          <div class="row align-items-center">
+          <div class="col p-0">
+          <img  id="logo_whyUs" src="{{asset('assets/IMG/Cleaning/WeCover.png')}}" alt="">
+
+
+          </div>
+          <div class="col">
+           <h6 style="color:#fb8500">We Cover All Cleaning Needs</h6>
+          </div>
+          
+          </div>
+          <div class="row">
+         <p class="p-1" style="text-align: justify;">From homes to offices, after construction
+         or events, and even move-ins/move-outs,
+         we handle it all with expertise.
+           </p>
+          </div>
+          
+        </div>
+        <div class="row justify-content-center">
+        <div class="col-md-6 mx-3 p-2">
+          <div class="row align-items-cente">
+          <div class="col p-0">
+          <img  id="logo_whyUs" src="{{asset('assets/IMG/Cleaning/WeCover.png')}}" alt="">
+
+
+          </div>
+          <div class="col">
+           <h6 style="color:#fb8500">We Cover All Cleaning Needs</h6>
+          </div>
+          
+          </div>
+          <div class="row">
+         <p class="p-1" style="text-align: justify;">From homes to offices, after construction
+         or events, and even move-ins/move-outs,
+         we handle it all with expertise.
+           </p>
+          </div>
+          
+        </div>
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
 
     <div class="col-md-4 ">
 
         <div class="row ">
         <div class="div-mobile flex justify-content-center">
         <!-- Content for mobile screens -->
-        <img  id="logo_whyUsR" src="{{asset('assets/IMG/Construction/clock.png')}}" alt="">
+        <img  id="logo_whyUsR" src="{{asset('assets/IMG/Cleaning/WeCover.png')}}" alt="">
 
 <!-- Generator: Adobe Illustrator 27.6.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 
@@ -975,7 +980,7 @@ h5{
         </div>
 
         <div class="div-monitor">
-        <img  id="logo_whyUs" src="{{asset('assets/IMG/Construction/clock.png')}}" alt="">
+        <img  id="logo_whyUs" src="{{asset('assets/IMG/Cleaning/WeCover.png')}}" alt="">
 
         <!-- Content for larger screens (monitors) -->
 
@@ -987,8 +992,8 @@ h5{
         <div class="row">
             <h5>Premium Quality Services & Materials   </h5>
         </div>
-        <div class="row " >
-            <p style="text-align:justify;" >Our dedication to excellence begins the moment you reach out to us. Expect top-notch services, exceptional customer support, and guaranteed satisfaction.</p>
+        <div class="row">
+            <span>Our dedication to excellence begins the moment you reach out to us. Expect top-notch services, exceptional customer support, and guaranteed satisfaction.</span>
         </div>
 
     </div>
@@ -997,20 +1002,21 @@ h5{
         <div class="row">
           <div class="div-mobile flex justify-content-center">
           <!-- Content for mobile screens -->
-            <img  id="logo_whyUsR" src="{{asset('assets/IMG/Construction/check.png')}}" alt="">
+          <img  id="logo_whyUsR" src="{{asset('assets/IMG/Cleaning/AffordableCustom.png')}}" alt="">
 
           </div>
                 <div class="div-monitor">
           <!-- Content for larger screens (monitors) -->
-            <img  id="logo_whyUs" src="{{asset('assets/IMG/Construction/check.png')}}" alt="">
+            <img  id="logo_whyUs" src="{{asset('assets/IMG/Cleaning/AffordableCustom.png')}}" alt="">
+
           </div>
 
         </div>
         <div class="row">
             <h5>Honest & Transparent Pricing </h5>
         </div>
-        <div class="row " >
-            <p  style="text-align: justify"> Our free estimates are straightforward and exact, with no concealed costs or extra charges. Transparency and honesty are fundamental to our values, setting us apart from other painting companies.</p>
+        <div class="row">
+            <span> Our free estimates are straightforward and exact, with no concealed costs or extra charges. Transparency and honesty are fundamental to our values, setting us apart from other painting companies.</span>
         </div>
 
     </div>
@@ -1019,14 +1025,14 @@ h5{
     <div class="row">
           <div class="div-mobile flex justify-content-center">
           <!-- Content for mobile screens -->
-            <img  id="logo_whyUsR" src="{{asset('assets/IMG/Construction/cert.png')}}" alt="">
+          <img  id="logo_whyUsR" src="{{asset('assets/IMG/Cleaning/Fast.png')}}" alt="">
 
           </div>
                 <div class="div-monitor">
           <!-- Content for larger screens (monitors) -->
 <!-- Generator: Adobe Illustrator 27.6.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 
-  <img  id="logo_whyUs" src="{{asset('assets/IMG/Construction/cert.png')}}" alt="">
+          <img  id="logo_whyUs" src="{{asset('assets/IMG/Cleaning/AffordableCustom.png')}}" alt="">
 
         </div>
         </div>
@@ -1034,17 +1040,20 @@ h5{
             <h5>One-Time Policy</h5>
         </div>
         <div class="row">
-            <p style="text-align:justify;" > Our efficient process and expert project management ensure our skilled team swiftly completes the work within the projected timeline.</p>
+            <span> Our efficient process and expert project management ensure our skilled team swiftly completes the work within the projected timeline.</span>
         </div>
     </div>
   </div>
 </div>
-
+</div>
 
 
 
   </div>
 
+</div>
+<div class="">
+  
 </div>
 <div class="container p-5 my-5 div-monitor" id="ourServicesContainer">
 
@@ -1055,21 +1064,24 @@ h5{
 
   <div class="row p-0 m-0">
     <div class="col-md-4 p-0 m-0">
-      <div class="card-img h-100" style="background: #e5e1d8; color:#8e9440; height: 200px;">
+      <div class="card-img h-100" style="background: #fff001; color:#0081e9; height: 200px;">
         <div class="justify-content-center">
-          <img  id="cardImg" src="{{asset('assets/IMG/Construction/Paint.png')}}"  class="img-fluid" alt="">
+          <img  id="cardImg" src="{{asset('assets/IMG/Cleaning/HomeCleaning.png')}}"  class="img-fluid" alt="">
+
           <div class="container">
             <div class="row ">
-              <h4 class="mx-0"> Painting</h4>
+              <h4 class="mx-0">Home Cleaning</h4>
             </div>
             <div class="row">
-              <span>With over a decade of experience, our painters have expertly revitalized thousands of homes with top-quality painting services.</span>
+              
+              <span>Love where you live! We'll bring the sparkle back to your home.z</span>
             </div>
           </div>
-
+          
+          <br>
           <br>
             <div id="buttonAlign"class="row justify-content-center p-4">
-
+              
               <button  id="OurServicesBtn" type="button">Request a quote</button>
 
             </div>
@@ -1078,21 +1090,23 @@ h5{
 
     </div>
     <div class="col-md-4  m-0 p-0">
-     <div class="card-img h-100" style="background: #f5f5f5; color:#8e9440; height: 200px;">
+     <div class="card-img h-100" style="background: #f5f5f5; color:#0081e9; height: 200px;">
          <div class="justify-content-center">
-           <img  id="cardImg" src="{{asset('assets/IMG/Construction/drywell.png')}}"  class="img-fluid" alt="">
+           <img  id="cardImg" src="{{asset('assets/IMG/Cleaning/BusinessCleaning.png')}}"  class="img-fluid" alt="">
            <div class="container">
              <div class="row ">
-               <h4 class="mx-0"> Drywall</h4>
+               <h4 class="mx-0"> Business Cleaning</h4>
              </div>
              <div class="row">
-              <span>Whether it's finishing touches or fixing wear and tear, we have you covered.</span>
+              <br>
+              <br>
+              <span>Focus on your work, while we make your office shine.</span>
             </div>
            </div>
            <br>
            <br>
            <div id="buttonAlign" class="row justify-content-center m-0 p-4">
-
+              
               <button  id="OurServicesBtn" type="button">Request a quote</button>
 
             </div>
@@ -1101,18 +1115,18 @@ h5{
     </div>
 
     <div class="col-md-4  p-0 m-0">
-      <div class="card-img h-100" style="background: #e5e1d8; color:#8e9440; ">
+      <div class="card-img h-100" style="background: #fff001; color:#0081e9; ">
         <div class="justify-content-center">
-          <img  id="cardImg" src="{{asset('assets/IMG/Construction/Framing.png')}}"  class="img-fluid" alt="">
+          <img  id="cardImg" src="{{asset('assets/IMG/Cleaning/movingcleaning.png')}}"  class="img-fluid" alt="">
           <div class="container">
             <div class="row ">
-              <h4 class="mx-0"> Framing</h4>
+              <h4 class="mx-0"> Moving Cleaning</h4>
             </div>
             <div class="row">
-                <span>We ensure impeccable installation of structural frames to support doors, windows, and other elements, along with the finest custom selection of frames.</span>
+                <span>Moving is tough, but cleaning doesn’t have to be! We’ve got your back, making your new place welcoming or your old one spotless.</span>
             </div>
           </div>
-          
+          <br>
             <div class="row justify-content-center p-4">
               <button  id="OurServicesBtn" type="button">Request a quote</button>
 
@@ -1126,19 +1140,19 @@ h5{
 
   <div class="row p-0 m-0">
   <div class="col-md-4 h-100 p-0 m-0">
-      <div class="card-img" style="background: #f5f5f5; color:#8e9440; height: 500px; ">
+      <div class="card-img" style="background: #f5f5f5; color:#0081e9; height: 500px; ">
         <div class="justify-content-center">
-          <img  id="cardImg" src="{{asset('assets/IMG/Construction/FloorInst.png')}}"  class="img-fluid" alt="">
+          <img  id="cardImg" src="{{asset('assets/IMG/Cleaning/HomeCleaning.png')}}"  class="img-fluid" alt="">
           <div class="container">
             <div class="row ">
-              <h4 class="mx-0"> Floor Installation</h4>
+              <h4 class="mx-0"> Remodel & Construction Cleaning</h4>
             </div>
             <div class="row">
-<span>Our team of experts will guide you through the flooring selection process. We have extensive experience installing various types of flooring, including hardwood, laminate, vinyl, carpet, and more.</span>
+              <span>  Finished a big project? We’ll sweep in and clear the dust, making everything look brand new.</span>
             </div>
           </div>
             <br>
-
+            
             <div class="row justify-content-center p-5">
               <button  id="OurServicesBtn" type="button">Request a quote</button>
 
@@ -1148,18 +1162,21 @@ h5{
 
     </div>
     <div class="col-md-4 h-100 p-0 m-0">
-      <div class="card-img" style="background: #e5e1d8; color:#8e9440;  height:500px ">
+      <div class="card-img" style="background: #fff001; color:#0081e9;  height:500px ">
         <div class="justify-content-center">
-          <img  id="cardImg" src="{{asset('assets/IMG/Construction/walls.png')}}"  class="img-fluid" alt="">
+          <img  id="cardImg" src="{{asset('assets/IMG/Cleaning/recurring.png')}}"  class="img-fluid" alt="">
           <div class="container">
             <div class="row ">
-              <h4 class="mx-0"> Decorative Walls</h4>
+              <h4 class="mx-0"> Recurring Cleaning</h4>
             </div>
             <div class="row">
-                <span>They are made with the most innovative techniques on the market and the level required to have a decorative wall that enhances the look of your home. These walls' materials, finishes, textures, colors, and patterns are carefully chosen.</span>
+                <span>Keep the fresh feeling! Schedule us regularly, and always come home to a clean space.</span>
             </div>
-          </div>
+          </div> <br>
+              <br>
+              <br>
             <div class="row justify-content-center p-5">
+             
               <button  id="OurServicesBtn" type="button">Request a quote</button>
 
             </div>
@@ -1168,32 +1185,19 @@ h5{
 
     </div>
     <div class="col-md-4 h-100 p-0 m-0">
-      <div class="card-img" style="background: #ade70d; color:#6f7632;  height: 500px; ">
-        <div class="justify-content-center">
-          <img  id="cardImg" src="{{asset('assets/IMG/Construction/celanning.png')}}"  class="img-fluid" alt="">
-          <div class="container">
-            <div class="row ">
-              <h4 class="mx-0"> Cleaning Services</h4>
-            </div>
-            <div class="row">
-              <span>For homes of all sizes, tailoring the perfect plan to meet your specific needs. </span>
-            </div>
-          </div>
-          <br><br>
-          <br>
-        <br>
-            <div class="row justify-content-center p-5">
-              <button  id="OurServicesBtn" type="button">Request a quote</button>
+      <div class="card-img" style="background: #0081e9; color:#;  height: 500px; ">
+      <div class="container">
+        <img  style="width:100%; height: auto;"  src="{{asset('assets/IMG/Cleaning/C&ACSBN.png')}}"  class="img-fluid my-5" alt="">
 
-            </div>
-          </div>
+      </div>
+
+
         </div>
 
     </div>
 
-  </div>
 
-
+</div>
 </div>
 
 
@@ -1209,17 +1213,21 @@ h5{
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
                     <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-img" style="background: #e5e1d8; color:#8e9440; ">
+                        <div class="card ">
+                            <div class="card-img " style="background: #fff001; color:#0081e9; ">
 
                              <div class="justify-content-center">
-                             <img  id="cardImg" src="{{asset('assets/IMG/Construction/Paint.png')}}"  class="img-fluid" alt="">
-                              <div class="row">
-                               <h4> Painting</h4>
+                             <img  id="cardImg" src="{{asset('assets/IMG/Cleaning/HomeCleaning.png')}}"  class="img-fluid" alt="">
+                              <div class="row p-2">
+                               <h4> Home Cleaning</h4>
                              </div>
-                             <div class="row">
-                              <span>With over a decade of experience, our painters have expertly revitalized thousands of homes with top-quality painting services.</span>
+                             <div class="row my-2 p-1">
+                                  <span>Love where you live! We'll bring the sparkle back to your home.</span>
                               </div>
+                              <div>
+
+                              </div>
+                                  <br>
 
                              <button  id="OurServicesBtn" type="button">Request a quote</button>
 
@@ -1232,15 +1240,15 @@ h5{
                 <div class="carousel-item">
                     <div class="col-md-3">
                     <div class="card">
-                    <div class="card-img" style="background: #f5f5f5; color:#8e9440; ">
+                    <div class="card-img" style="background: #f5f5f5; color:#0081e9; ">
 
                             <div class="justify-content-center">
-                              <img  id="cardImg" src="{{asset('assets/IMG/Construction/drywell.png')}}"  class="img-fluid" alt="">
-                             <div class="row">
-                              <h4> Drywall</h4>
+                              <img  id="cardImg" src="{{asset('assets/IMG/Cleaning/BusinessCleaning.png')}}"  class="img-fluid" alt="">
+                             <div class="row p-2">
+                              <h4> Business Cleanning</h4>
                             </div>
-                            <div class="row">
-                              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic doloremque fugit iusto rem, consequuntur nemo repellat dolorem vitae, suscipit eligendi expedita odio eius et. Saepe rem debitis quibusdam temporibus iure.</span>
+                            <div class="row p-2">
+                              <span>Love where you live! We'll bring the sparkle back to your home.</span>
                             </div>
 
                             <button  id="OurServicesBtn" type="button">Request a quote</button>
@@ -1254,17 +1262,17 @@ h5{
                 <div class="carousel-item">
                     <div class="col-md-3">
                     <div class="card">
-                            <div class="card-img" style="background: #e5e1d8; color:#8e9440; ">
+                            <div class="card-img" style="background: #fff001; color:#0081e9; ">
 
                              <div class="justify-content-center">
-                             <img  id="cardImg" src="{{asset('assets/IMG/Construction/Framing.png')}}"  class="img-fluid" alt="">
-                              <div class="row">
-                               <h4> Framing</h4>
+                             <img  id="cardImg" src="{{asset('assets/IMG/Cleaning/movingcleaning.png')}}"  class="img-fluid" alt="">
+                              <div class="row py-2">
+                               <h4> Moving Cleaning</h4>
                              </div>
-                             <div class="row">
-                               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic doloremque fugit iusto rem, consequuntur nemo repellat dolorem vitae, suscipit eligendi expedita odio eius et. Saepe rem debitis quibusdam temporibus iure.</span>
-                             </div>
-
+                             <div class="row py-2">
+                                          <span>Moving is tough, but cleaning doesn’t have to be! We’ve got your back, making your new place welcoming or your old one spotless.</span>
+                            </div>
+                                      <br>
                              <button  id="OurServicesBtn" type="button">Request a quote</button>
 
                              </div>
@@ -1276,17 +1284,17 @@ h5{
                 <div class="carousel-item">
                     <div class="col-md-3">
                     <div class="card">
-                            <div class="card-img" style="background: #f5f5f5; color:#8e9440; ">
+                            <div class="card-img" style="background: #f5f5f5; color:#0081e9; ">
 
                              <div class="justify-content-center">
-                             <img  id="cardImg" src="{{asset('assets/IMG/Construction/FloorInst.png')}}"  class="img-fluid" alt="">
-                              <div class="row">
-                               <h4> Floor Installation </h4>
+                             <img  id="cardImg" src="{{asset('assets/IMG/Cleaning/remodel.png')}}"  class="img-fluid" alt="">
+                              <div class="row py-2">
+                               <h4> Remodel & Construction Cleaning </h4>
                              </div>
-                             <div class="row">
-                               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic doloremque fugit iusto rem, consequuntur nemo repellat dolorem vitae, suscipit eligendi expedita odio eius et. Saepe rem debitis quibusdam temporibus iure.</span>
-                             </div>
-
+                             <div class="row py-2">
+                                <span>Finished a big project? We’ll sweep in and clear the dust, making everything look brand new.</span>
+                              </div>
+                                <br>
                              <button  id="OurServicesBtn" type="button">Request a quote</button>
 
                              </div>
@@ -1298,16 +1306,17 @@ h5{
                 <div class="carousel-item">
                     <div class="col-md-3">
                     <div class="card">
-                            <div class="card-img" style="background: #e5e1d8; color:#8e9440; ">
+                            <div class="card-img" style="background: #fff001; color:#0081e9; ">
 
                              <div class="justify-content-center">
-                             <img  id="cardImg" src="{{asset('assets/IMG/Construction/walls.png')}}"  class="img-fluid" alt="">
-                              <div class="row">
-                               <h4> Decorative Walls</h4>
+                             <img  id="cardImg" src="{{asset('assets/IMG/Cleaning/recurring.png')}}"  class="img-fluid" alt="">
+                              <div class="row py-2">
+                               <h4> Recurring Cleaning</h4>
                              </div>
-                             <div class="row">
-                               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic doloremque fugit iusto rem, consequuntur nemo repellat dolorem vitae, suscipit eligendi expedita odio eius et. Saepe rem debitis quibusdam temporibus iure.</span>
-                             </div>
+                             <div class="row py-2">
+                                  <span> Keep the fresh feeling! Schedule us regularly, and always come home to a clean space.</span>
+                              </div>
+                              <br>
 
                              <button  id="OurServicesBtn" type="button">Request a quote</button>
 
@@ -1317,28 +1326,7 @@ h5{
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="col-md-3">
-                    <div class="card">
-                            <div class="card-img" style="background: #ade70d; color:#8e9440; ">
-
-                             <div class="justify-content-center">
-                             <img  id="cardImg" src="{{asset('assets/IMG/Construction/celanning.png')}}"  class="img-fluid" alt="">
-                              <div class="row">
-                               <h4> Cleaning Services</h4>
-                             </div>
-                             <div class="row">
-                               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic doloremque fugit iusto rem, consequuntur nemo repellat dolorem vitae, suscipit eligendi expedita odio eius et. Saepe rem debitis quibusdam temporibus iure.</span>
-                             </div>
-
-                             <button  id="OurServicesBtnCS" type="button">Request a quote</button>
-
-                             </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+               
             </div>
             <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -1351,183 +1339,8 @@ h5{
 </div>
 </div>
 
-<div class="container  ">
-  <div class="row">
-    <div id="territoryCoveredText" class="col-md-6   ">
-      <div class="row p-5 ">
-          <h4 class="ml-4">Territory Covered</h4>
-      </div>
-      <div class="row px-5">
-        <p>
-          Our expirience and quality have led us to be reccomended to work in beutiful cities such as:
-        </p>
-        <ul class="px-5">
-          <li>Anaheim</li>
-          <li>Encinitas</li>
-          <li>Malibu</li>
-          <li>Long beach</li>
-        </ul>
-        <p>Among Othersa</p>
-      </div>
-
-    </div>
-    <div class="col-md-6 m-0 p-0" sty>
-      <img  id="territoryCovered" src="{{asset('assets/IMG/Construction/MapConstruction.png')}}"  class="img-fluid m-0" alt="">
 
 
-    </div>
-  </div>
-</div>
-
-<div class="container my-3 " id="ourHistory">
-  <div class="row">
-
-    <div class="col-md-6 m-0 p-2 justify-content-center" >
-      <img  id="storyImg"  src="{{asset('assets/IMG/Construction/C&AConstruction1.png')}}"   alt="">
-
-
-    </div>
-
-    <div id="colOurStory" class="col-md-6 m-0 p-2 ">
-
-      <div class="row p-3 my-5">
-        <h4>Our Story</h4>
-      </div>
-      <div class="row px-4">
-        <p>
-              <p style="text-align:justify;" >C&A Construction, founded by Carlos Enrique Hernandez, is a leading construction company that delivers exceptional services to homeowners. With a focus on quality and precision, C&A Construction has established itself as a trusted brand in the industry.
-
-From expert house painting, both interior and exterior, to meticulous maintenance of moldings, hardwood floors, doors, and interior installations, C&A Construction pays attention to every detail to enhance the overall appeal of homes.
-
-We have been bringing excellence since 2013.</p>
-        </p>
-
-      </div>
-
-    </div>
-
-  </div>
-  <div class="row my-5">
-    <div  class="col-md-6 p-2 m-0  ">
-      <div class="div-monitor">
-        <div class="row p-3">
-          <h4>Meet Carlos</h4>
-        </div>
-        <div class="row px-4">
-          <p style="text-align:justify;" >Carlos Enrique Hernández Cruz, born in Guatemala, is a seasoned construction professional with a remarkable journey. Carlos entered the construction industry during his adolescence, working diligently for various private companies.
-
-In 2003, he formally embarked on his construction career, initially as a skilled painter and head of maintenance. In 2013, Carlos founded C&A Construction, relied on word-of-mouth recommendations to secure projects. Despite initial challenges, the commitment to quality and excellence resulted in C&A Construction quickly establishing itself as one of the industry's finest.</p>
-        </div>
-
-      </div>
-      <div class="div-mobile">
-        <div class="row p-2 ">
-          <h2 class="text-center">Meet Carlos</h4>
-        </div>
-
-
-      <div class="row p-4 " >
-      <p style="text-align:justify;">Carlos Enrique Hernández Cruz, born in Guatemala, is a seasoned construction professional with a remarkable journey. Carlos entered the construction industry during his adolescence, working diligently for various private companies.
-
-In 2003, he formally embarked on his construction career, initially as a skilled painter and head of maintenance. In 2013, Carlos founded C&A Construction, relied on word-of-mouth recommendations to secure projects. Despite initial challenges, the commitment to quality and excellence resulted in C&A Construction quickly establishing itself as one of the industry's finest.</p>
-
-      </div>
-</div>
-    </div>
-    <div class="col-md-6 m-0 p-2 justify-content-center" id="colOurStory" >
-      <img  id="storyImg" src="{{asset('assets/IMG/Construction/carlos.png')}}"   alt="">
-
-
-    </div>
-  </div>
-</div>
-<div class="bg-secondary div-monitor " id="ourProjects">
-
-<div class="row p-2 justify-content-center">
-    <div class="col-3 m-1">
-      
-      <img   class="img-fluid"  src="{{asset('assets/IMG/Construction/1.png')}}"   alt="">
-    </div>
-    
-    <div class="col-3 m-1">
-      <img  class="img-fluid"  src="{{asset('assets/IMG/Construction/2.png')}}"   alt="">
-    </div>
-    <div class="col-3 m-1">
-      <img  class="img-fluid"  src="{{asset('assets/IMG/Construction/3.png')}}"   alt="">
-    </div>
-
-</div>
-
-<div class="row p-2 justify-content-center">
-    <div class="col-3 m-1">
-      <div clas="d-flex justify-content-end" >
-      <img  class="img-fluid"  src="{{asset('assets/IMG/Construction/4.png')}}"   alt="">
-      </div>
-    </div>
-    <div class="col-3 m-1">
-      <img  class="img-fluid"  src="{{asset('assets/IMG/Construction/5.png')}}"   alt="">
-    </div>
-    <div class="col-3 m-1">
-      <img  class="img-fluid"  src="{{asset('assets/IMG/Construction/6.png')}}"   alt="">
-    </div>
-
-</div>
-
-<div class="row p-2 justify-content-center">
-    <div class="col-3 m-1">
-      <div clas="d-flex justify-content-end" >
-      <img  class="img-fluid"  src="{{asset('assets/IMG/Construction/7.png')}}"   alt="">
-      </div>
-    </div>
-    <div class="col-3 m-1">
-      <img  class="img-fluid"  src="{{asset('assets/IMG/Construction/8.png')}}"   alt="">
-    </div>
-    <div class="col-3 m-1">
-      <img  class="img-fluid"  src="{{asset('assets/IMG/Construction/9.png')}}"   alt="">
-    </div>
-  </div>
-
-<div class="row p-2 justify-content-center">
-    <div class="col-3 m-1">
-      <div clas="d-flex justify-content-end" >
-      <img  class="img-fluid"  src="{{asset('assets/IMG/Construction/10.png')}}"   alt="">
-      </div>
-    </div>
-    <div class="col-3 m-1">
-      <img  class="img-fluid"  src="{{asset('assets/IMG/Construction/11.png')}}"   alt="">
-    </div>
-    <div class="col-3 m-1">
-      <img  class="img-fluid"  src="{{asset('assets/IMG/Construction/12.png')}}"   alt="">
-    </div>
-  </div>
-</div>
-</div>
-
-
-</div>
-<div class="container my-5 p-5 " id="ourPartners">
-  <div class="row">
-    <div  class="col-md-4 p-2 m-0  ">
-
-        <div class="row p-0 ">
-          <h1 style="margin-top:25%; color:#06153a" class="text-center">Our Partners</h2>
-        </div>
-
-
-
-
-    </div>
-    <div class="col-md-8 m-0 p-2 justify-content-center" id="colOurStory" >
-      <div class="row justify-content-around">
-        <img   src="{{asset('assets/IMG/Construction/partners.png')}}"   alt="">
-        <!-- <img  id="partnerImg2" src="{{asset('assets/IMG/Construction/Partner2.png')}}"   alt=""> -->
-
-      </div>
-
-
-    </div>
-  </div>
-</div>
 <div class="container " id="contactCotnainer">
   <section class="Material-contact-section section-padding ">
       <div class="container">
@@ -1543,7 +1356,7 @@ In 2003, he formally embarked on his construction career, initially as a skilled
               </div>
               <!-- contact form -->
               <div class="col-7 justify-content-center wow animated fadeInRight" data-wow-delay=".2s">
-              <form action="">
+                  <form action="">
                     <div class="row justify-content-center ">
                       <div class="col ">
                         <input class="bg-white text-black form-control rounded-3" placeholder="Name"type="text">
@@ -1592,12 +1405,14 @@ In 2003, he formally embarked on his construction career, initially as a skilled
 
                     </div>
 
-                  </form
+                  </form>
               </div>
           </div>
       </div>
     </section>
 </div>
+
+
 
 
 
@@ -1653,7 +1468,7 @@ In 2003, he formally embarked on his construction career, initially as a skilled
         </div>
 
         </div>
-
+            
         <div class="div-mobile">
           <divn class="row">
           <div class="col-6">
@@ -1684,8 +1499,8 @@ In 2003, he formally embarked on his construction career, initially as a skilled
             <span>Phone</span>
 
           </div>
-
-
+            
+          
           <div class="row">
           <div class="col-6">
             <span>Address</span>
@@ -1698,9 +1513,9 @@ In 2003, he formally embarked on his construction career, initially as a skilled
           </div>
 
           </div>
-
-
-
+        
+          
+          
 
         </div>
 
@@ -1708,15 +1523,15 @@ In 2003, he formally embarked on his construction career, initially as a skilled
 
 
     </div>
-    <div class="col-md-4 order-lg-1 p-0" style="background: #e5e1d8" >
-      <img id="logofooter" class="bg-gray"src="{{asset('assets/IMG/Construction/C&AConstruction.png')}}" alt="">
+    <div class="col-md-4 order-lg-1 p-0" style="background: #000000" >
+      <img id="logofooter" class="bg-gray"src="{{asset('assets/IMG/Cleaning/C&ACSBN.png')}}" alt="">
 
     </div>
-
+   
 
 
   </div>
-
+  
 
 
 </footer>
